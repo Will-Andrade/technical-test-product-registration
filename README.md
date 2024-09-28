@@ -43,6 +43,6 @@ cd technical-test-product-registration
 Navegue até a pasta do projeto e execute o seguinte comando para compilar e rodar a 
 aplicação:
 ```bash
-javac src/main/java/com/andradev/productreglist/ProductApp.java
-java -cp src/main/java com.andradev.productreglist.ProductApp
+javac -d bin src/main/java/com/andradev/prodreglist/*.java
+java -cp bin main.java.com.andradev.prodreglist.ProductList
 ```
